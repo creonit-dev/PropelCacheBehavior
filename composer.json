@@ -1,0 +1,21 @@
+{
+  "name": "creonit/propel-cache-behavior",
+  "type": "propel-behavior",
+  "keywords": [
+    "creonit",
+    "symfony",
+    "propel",
+    "behavior",
+    "cache"
+  ],
+  "extra": {
+    "name": "cache",
+    "class": "Creonit\\PropelCacheBehavior\\CacheBehavior"
+  },
+  "license": "GNU GPLv3",
+  "autoload": {
+    "psr-4": {
+      "Creonit\\PropelCacheBehavior\\": ""
+    }
+  }
+}
