@@ -1,5 +1,5 @@
 protected $cached = [];
-protected function cache($key, Closure $closure){
+protected function cache($key, \Closure $closure){
 
 	if(array_key_exists($key, $this->cached)){
 		return $this->cached[$key];
@@ -9,7 +9,7 @@ protected function cache($key, Closure $closure){
 }
 
 protected static $staticCached = [];
-protected static function staticCache($key, Closure $closure){
+protected static function staticCache($key, \Closure $closure){
 
 	if(array_key_exists($key, static::$staticCached)){
 		return static::$staticCached[$key];
